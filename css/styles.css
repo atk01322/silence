@@ -85,12 +85,16 @@ body a {
 }
 
 /*サイドバー*/
+.sticky {
+  display: flex;
+}
+
 .side-bar {
-  position: absolute;
+  position: sticky;
   width: 70px;
   margin-left: auto;
-  top: 0px;
-  right: 0;
+  top: 20px;
+
 }
 
 i {
@@ -109,7 +113,7 @@ i {
   display: flex;
   flex-direction: column;
   width: 800px;
-  margin:600px auto; 
+  margin: 300px auto; 
   z-index: 1;
 }
 .main h2 {
@@ -164,7 +168,8 @@ i {
 }
 .CDcover img{
   width: 200px;
-  padding: 20px 20px;
+  margin: 20px 20px;
+  border: 0.5px solid white; 
 }
 
 /*コンタクト*/
